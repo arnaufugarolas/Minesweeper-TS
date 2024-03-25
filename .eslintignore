@@ -1,0 +1,3 @@
+*.umd.js
+tsconfig.node.json
+tsconfig.json

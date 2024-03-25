@@ -1,0 +1,19 @@
+{
+  "extends": "@developer-kit/typescript-config/tsconfig.json",
+  "include": ["src", "vite.config.ts"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["src/*"],
+      "@": ["src"],
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
+      "@assets/*": ["src/assets/*"],
+      "@assets": ["src/assets"],
+      "@public/*": ["public/*"],
+      "@public": ["public"],
+      "@logic/*": ["src/logic/*"],
+      "@logic": ["src/logic"]
+    }
+  },
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
